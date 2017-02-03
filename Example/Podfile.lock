@@ -1,0 +1,16 @@
+PODS:
+  - FLYAnimation (0.1.0)
+
+DEPENDENCIES:
+  - FLYAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  FLYAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLYAnimation: 1c4b4105392f04ffc6e95f65f9743999c9952a09
+
+PODFILE CHECKSUM: a56db4c187e092ef45bf5157950d1b236705f58a
+
+COCOAPODS: 1.1.1

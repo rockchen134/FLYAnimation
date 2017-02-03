@@ -1,0 +1,6 @@
+framework module Pods_FLYAnimation_Tests {
+  umbrella header "Pods-FLYAnimation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

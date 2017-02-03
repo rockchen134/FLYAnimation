@@ -1,0 +1,6 @@
+framework module FLYAnimation {
+  umbrella header "FLYAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "FLYAnimation",
+  "version": "0.1.0",
+  "summary": "A short description of FLYAnimation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rockchen134/FLYAnimation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rockchen134": "fly.teamworks@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rockchen134/FLYAnimation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FLYAnimation/Classes/**/*"
+}

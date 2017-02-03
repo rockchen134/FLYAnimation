@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06FA34DD86467DF2CE4CB09DEF926C62 /* FLYAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57188B7E4491464B1B7A9F80B040004C /* FLYAnimation-dummy.m */; };
+		4BD1EDF0D31FF37B462F4C857E0E20EB /* FLYAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29015ACBBE3208672C378290093D6AC7 /* FLYAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		605B62DC6A500AA62394C5E9868EAE43 /* Pods-FLYAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 377534F6FB01675BC5D5EDD1F0D737CF /* Pods-FLYAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		615B2E2E845AE3A0D279643BD3D56A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7361072827D7B172B91802EBF65C78A8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EDE6F09E778018D1245A423614443F /* ReplaceMe.m */; };
+		89FCB26806CC21393B2A1C6B3F22AA3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9794816F64B165444B7EE3F1E3595F1D /* Pods-FLYAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD115AA8F17443F6C23D8CF8A14A2B1 /* Pods-FLYAnimation_Tests-dummy.m */; };
+		9A05A058A465045D3F89F64304854DD9 /* Pods-FLYAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C211D4FAE9A1B743997DC398E63ACE88 /* Pods-FLYAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A790A3E6D369AF446C5B5CD5F0B72509 /* Pods-FLYAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C103E41277F34EFD0C8D230EC45A14C /* Pods-FLYAnimation_Example-dummy.m */; };
+		ABA1B08996B2821143F327BDE628B718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		389100640153F45C8DCB6B0739EEE916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56692DC8DE857EC33CFE1D86CD24D3B1;
+			remoteInfo = FLYAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0575DE1D3C0DA0963FF5C41306CBA739 /* Pods-FLYAnimation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLYAnimation_Example-resources.sh"; sourceTree = "<group>"; };
+		0BC4E2A2458B06B503E16FF79E495515 /* Pods-FLYAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		15EDE6F09E778018D1245A423614443F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		1A441862117D29922D898EA838D16C45 /* Pods-FLYAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLYAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29015ACBBE3208672C378290093D6AC7 /* FLYAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLYAnimation-umbrella.h"; sourceTree = "<group>"; };
+		2C103E41277F34EFD0C8D230EC45A14C /* Pods-FLYAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLYAnimation_Example-dummy.m"; sourceTree = "<group>"; };
+		2DC2DB858C07688E3616356E67B50C90 /* FLYAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLYAnimation-prefix.pch"; sourceTree = "<group>"; };
+		2FD115AA8F17443F6C23D8CF8A14A2B1 /* Pods-FLYAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLYAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
+		377534F6FB01675BC5D5EDD1F0D737CF /* Pods-FLYAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLYAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
+		490493004B96FFE8AFF8EC75853AFEAE /* FLYAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FLYAnimation.modulemap; sourceTree = "<group>"; };
+		4AD2A26E76B20D92D3D126EA755396AC /* Pods-FLYAnimation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLYAnimation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4C4811971936D59C42FBC9B8C51198E6 /* Pods_FLYAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLYAnimation_Example.framework; path = "Pods-FLYAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D33FE4578A7883B68A30564FA72BB9F /* FLYAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLYAnimation.xcconfig; sourceTree = "<group>"; };
+		57188B7E4491464B1B7A9F80B040004C /* FLYAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLYAnimation-dummy.m"; sourceTree = "<group>"; };
+		58D416F93E70C486EA7C85254F193B14 /* Pods-FLYAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLYAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FBEFCFC018AFDE87D8C50C3B4594291 /* Pods_FLYAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLYAnimation_Tests.framework; path = "Pods-FLYAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D21A8B551845587D03867636F3DD104 /* FLYAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLYAnimation.framework; path = FLYAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		859F11B8DC5D8EFE81E62A26BB96621F /* Pods-FLYAnimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLYAnimation_Tests-resources.sh"; sourceTree = "<group>"; };
+		8B5E2937E262809F2E8A87B3F3BF767D /* Pods-FLYAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLYAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		983CC55F9C4E79179E3FB0049F7744D1 /* Pods-FLYAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B50EBA4730E25A527894C2BEC876325F /* Pods-FLYAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLYAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B548C981F7F6FF1972308751156481C1 /* Pods-FLYAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLYAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C211D4FAE9A1B743997DC398E63ACE88 /* Pods-FLYAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLYAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C399545E434113289AF65A750FE22BE1 /* Pods-FLYAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FLYAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC0694D75930DA6DE89C8B6E3DA2C548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB87D60FD3DA0816C6664A9C197D26A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5ADCB6BC98D63912974FEBDCA92951 /* Pods-FLYAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FLYAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		F1459E767A932973DD859464FC2DF22A /* Pods-FLYAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F518455DDBFEDEA35D81D6EFD04EFF01 /* Pods-FLYAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F613CCC048BB2D8D74AA194662B8C49A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1852B2703332AEA4F6615AB7F2DB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FCB26806CC21393B2A1C6B3F22AA3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846156D65AE6BF7EBAD873AB63E62AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1B08996B2821143F327BDE628B718 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B64CA2D21F03158410CBD6453C622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615B2E2E845AE3A0D279643BD3D56A18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133855E0496F0FEA61FC21A58992BB56 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				490493004B96FFE8AFF8EC75853AFEAE /* FLYAnimation.modulemap */,
+				4D33FE4578A7883B68A30564FA72BB9F /* FLYAnimation.xcconfig */,
+				57188B7E4491464B1B7A9F80B040004C /* FLYAnimation-dummy.m */,
+				2DC2DB858C07688E3616356E67B50C90 /* FLYAnimation-prefix.pch */,
+				29015ACBBE3208672C378290093D6AC7 /* FLYAnimation-umbrella.h */,
+				F613CCC048BB2D8D74AA194662B8C49A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FLYAnimation";
+			sourceTree = "<group>";
+		};
+		200364972A8848A2EF6E5F240D354075 /* Pods-FLYAnimation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB87D60FD3DA0816C6664A9C197D26A /* Info.plist */,
+				EE5ADCB6BC98D63912974FEBDCA92951 /* Pods-FLYAnimation_Tests.modulemap */,
+				B50EBA4730E25A527894C2BEC876325F /* Pods-FLYAnimation_Tests-acknowledgements.markdown */,
+				58D416F93E70C486EA7C85254F193B14 /* Pods-FLYAnimation_Tests-acknowledgements.plist */,
+				2FD115AA8F17443F6C23D8CF8A14A2B1 /* Pods-FLYAnimation_Tests-dummy.m */,
+				4AD2A26E76B20D92D3D126EA755396AC /* Pods-FLYAnimation_Tests-frameworks.sh */,
+				859F11B8DC5D8EFE81E62A26BB96621F /* Pods-FLYAnimation_Tests-resources.sh */,
+				C211D4FAE9A1B743997DC398E63ACE88 /* Pods-FLYAnimation_Tests-umbrella.h */,
+				0BC4E2A2458B06B503E16FF79E495515 /* Pods-FLYAnimation_Tests.debug.xcconfig */,
+				F1459E767A932973DD859464FC2DF22A /* Pods-FLYAnimation_Tests.release.xcconfig */,
+			);
+			name = "Pods-FLYAnimation_Tests";
+			path = "Target Support Files/Pods-FLYAnimation_Tests";
+			sourceTree = "<group>";
+		};
+		3DF919859A28A00062FDD7AD5A1CC131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D21A8B551845587D03867636F3DD104 /* FLYAnimation.framework */,
+				4C4811971936D59C42FBC9B8C51198E6 /* Pods_FLYAnimation_Example.framework */,
+				6FBEFCFC018AFDE87D8C50C3B4594291 /* Pods_FLYAnimation_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E9FB0BDCB9E5F1A0698D8BDA4F99C50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A50796784A79E9C2E0516ADCCC000549 /* Pods-FLYAnimation_Example */,
+				200364972A8848A2EF6E5F240D354075 /* Pods-FLYAnimation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5074C2B4001341E4831D8F24D31BFA6D /* FLYAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C9F5D8C87AB1A8F633540F96216CD18C /* Classes */,
+			);
+			name = FLYAnimation;
+			path = FLYAnimation;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E2D55A5CD9ECE21CEBFC2644001606F0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3DF919859A28A00062FDD7AD5A1CC131 /* Products */,
+				3E9FB0BDCB9E5F1A0698D8BDA4F99C50 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A50796784A79E9C2E0516ADCCC000549 /* Pods-FLYAnimation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DC0694D75930DA6DE89C8B6E3DA2C548 /* Info.plist */,
+				C399545E434113289AF65A750FE22BE1 /* Pods-FLYAnimation_Example.modulemap */,
+				1A441862117D29922D898EA838D16C45 /* Pods-FLYAnimation_Example-acknowledgements.markdown */,
+				8B5E2937E262809F2E8A87B3F3BF767D /* Pods-FLYAnimation_Example-acknowledgements.plist */,
+				2C103E41277F34EFD0C8D230EC45A14C /* Pods-FLYAnimation_Example-dummy.m */,
+				B548C981F7F6FF1972308751156481C1 /* Pods-FLYAnimation_Example-frameworks.sh */,
+				0575DE1D3C0DA0963FF5C41306CBA739 /* Pods-FLYAnimation_Example-resources.sh */,
+				377534F6FB01675BC5D5EDD1F0D737CF /* Pods-FLYAnimation_Example-umbrella.h */,
+				983CC55F9C4E79179E3FB0049F7744D1 /* Pods-FLYAnimation_Example.debug.xcconfig */,
+				F518455DDBFEDEA35D81D6EFD04EFF01 /* Pods-FLYAnimation_Example.release.xcconfig */,
+			);
+			name = "Pods-FLYAnimation_Example";
+			path = "Target Support Files/Pods-FLYAnimation_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9F5D8C87AB1A8F633540F96216CD18C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15EDE6F09E778018D1245A423614443F /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E2D55A5CD9ECE21CEBFC2644001606F0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F28DAE5D273FE6DB820937FB36F4EAF6 /* FLYAnimation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F28DAE5D273FE6DB820937FB36F4EAF6 /* FLYAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5074C2B4001341E4831D8F24D31BFA6D /* FLYAnimation */,
+				133855E0496F0FEA61FC21A58992BB56 /* Support Files */,
+			);
+			name = FLYAnimation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		213F5D57AE8C903B5E6088DE95F5BFFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD1EDF0D31FF37B462F4C857E0E20EB /* FLYAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CDFA6E09BCCC0870C09F7C3D3D57D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A05A058A465045D3F89F64304854DD9 /* Pods-FLYAnimation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8899860314A54A550B6D7EA7731E3482 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605B62DC6A500AA62394C5E9868EAE43 /* Pods-FLYAnimation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FE00223595E51ED7588F7132E3B20B7 /* Pods-FLYAnimation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB78885C6982DAA42C04F0B92378A56F /* Build configuration list for PBXNativeTarget "Pods-FLYAnimation_Example" */;
+			buildPhases = (
+				D5C0850BFB8E4E6C65141763EBF483DB /* Sources */,
+				A13B64CA2D21F03158410CBD6453C622 /* Frameworks */,
+				8899860314A54A550B6D7EA7731E3482 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1B15A11CD02B2B53C5DCD15801CCD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FLYAnimation_Example";
+			productName = "Pods-FLYAnimation_Example";
+			productReference = 4C4811971936D59C42FBC9B8C51198E6 /* Pods_FLYAnimation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56692DC8DE857EC33CFE1D86CD24D3B1 /* FLYAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C98DC21F2E7555904CF2093E316EB3E /* Build configuration list for PBXNativeTarget "FLYAnimation" */;
+			buildPhases = (
+				CDE04DE8F9986D855FFD45DB1E715682 /* Sources */,
+				846156D65AE6BF7EBAD873AB63E62AD9 /* Frameworks */,
+				213F5D57AE8C903B5E6088DE95F5BFFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLYAnimation;
+			productName = FLYAnimation;
+			productReference = 7D21A8B551845587D03867636F3DD104 /* FLYAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74C213D415B65F894378D01102A331B0 /* Pods-FLYAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB789321F1523B8A6ACFCDE448A2356C /* Build configuration list for PBXNativeTarget "Pods-FLYAnimation_Tests" */;
+			buildPhases = (
+				65C68FB34767C57697A83C83DF986A16 /* Sources */,
+				7E1852B2703332AEA4F6615AB7F2DB05 /* Frameworks */,
+				71CDFA6E09BCCC0870C09F7C3D3D57D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FLYAnimation_Tests";
+			productName = "Pods-FLYAnimation_Tests";
+			productReference = 6FBEFCFC018AFDE87D8C50C3B4594291 /* Pods_FLYAnimation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3DF919859A28A00062FDD7AD5A1CC131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56692DC8DE857EC33CFE1D86CD24D3B1 /* FLYAnimation */,
+				0FE00223595E51ED7588F7132E3B20B7 /* Pods-FLYAnimation_Example */,
+				74C213D415B65F894378D01102A331B0 /* Pods-FLYAnimation_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65C68FB34767C57697A83C83DF986A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9794816F64B165444B7EE3F1E3595F1D /* Pods-FLYAnimation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE04DE8F9986D855FFD45DB1E715682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FA34DD86467DF2CE4CB09DEF926C62 /* FLYAnimation-dummy.m in Sources */,
+				7361072827D7B172B91802EBF65C78A8 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C0850BFB8E4E6C65141763EBF483DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A790A3E6D369AF446C5B5CD5F0B72509 /* Pods-FLYAnimation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C1B15A11CD02B2B53C5DCD15801CCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLYAnimation;
+			target = 56692DC8DE857EC33CFE1D86CD24D3B1 /* FLYAnimation */;
+			targetProxy = 389100640153F45C8DCB6B0739EEE916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D4369FDFF68B66AD447960C7E0EE943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983CC55F9C4E79179E3FB0049F7744D1 /* Pods-FLYAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FLYAnimation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLYAnimation_Example/Pods-FLYAnimation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLYAnimation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B4042D2CB228EC40D038F83002597F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D33FE4578A7883B68A30564FA72BB9F /* FLYAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLYAnimation/FLYAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLYAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLYAnimation/FLYAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FLYAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CF1E19B6B3BBF0F0921E61F063EDF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D33FE4578A7883B68A30564FA72BB9F /* FLYAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLYAnimation/FLYAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLYAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLYAnimation/FLYAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLYAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		600E525970C8AD7DE3FA3256D64BB8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC4E2A2458B06B503E16FF79E495515 /* Pods-FLYAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FLYAnimation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLYAnimation_Tests/Pods-FLYAnimation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLYAnimation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6198002512549B5F8828F4C93DE9CDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1459E767A932973DD859464FC2DF22A /* Pods-FLYAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FLYAnimation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLYAnimation_Tests/Pods-FLYAnimation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLYAnimation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C199E25B650BE0551B5B531EDFA1ABE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F518455DDBFEDEA35D81D6EFD04EFF01 /* Pods-FLYAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FLYAnimation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLYAnimation_Example/Pods-FLYAnimation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLYAnimation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C98DC21F2E7555904CF2093E316EB3E /* Build configuration list for PBXNativeTarget "FLYAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF1E19B6B3BBF0F0921E61F063EDF08 /* Debug */,
+				3B4042D2CB228EC40D038F83002597F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB789321F1523B8A6ACFCDE448A2356C /* Build configuration list for PBXNativeTarget "Pods-FLYAnimation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600E525970C8AD7DE3FA3256D64BB8F3 /* Debug */,
+				6198002512549B5F8828F4C93DE9CDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB78885C6982DAA42C04F0B92378A56F /* Build configuration list for PBXNativeTarget "Pods-FLYAnimation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4369FDFF68B66AD447960C7E0EE943 /* Debug */,
+				C199E25B650BE0551B5B531EDFA1ABE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
