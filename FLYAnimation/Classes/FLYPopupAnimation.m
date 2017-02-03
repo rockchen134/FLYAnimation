@@ -12,7 +12,7 @@
 
 - (void)show {
     
-    __weak UIView *component = self.component;
+    __weak NSObject<FLYAnimationProtocol> *component = self.component;
     
     component.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.001f, 0.001f);
     
