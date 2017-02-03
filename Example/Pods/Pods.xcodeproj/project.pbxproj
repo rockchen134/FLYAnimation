@@ -11,10 +11,14 @@
 		4BD1EDF0D31FF37B462F4C857E0E20EB /* FLYAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29015ACBBE3208672C378290093D6AC7 /* FLYAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		605B62DC6A500AA62394C5E9868EAE43 /* Pods-FLYAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 377534F6FB01675BC5D5EDD1F0D737CF /* Pods-FLYAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		615B2E2E845AE3A0D279643BD3D56A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7361072827D7B172B91802EBF65C78A8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EDE6F09E778018D1245A423614443F /* ReplaceMe.m */; };
 		89FCB26806CC21393B2A1C6B3F22AA3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9794816F64B165444B7EE3F1E3595F1D /* Pods-FLYAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD115AA8F17443F6C23D8CF8A14A2B1 /* Pods-FLYAnimation_Tests-dummy.m */; };
 		9A05A058A465045D3F89F64304854DD9 /* Pods-FLYAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C211D4FAE9A1B743997DC398E63ACE88 /* Pods-FLYAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A2EEF021E44672C004E4398 /* FLYAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2EEF011E44672C004E4398 /* FLYAnimationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A2EEF051E446753004E4398 /* FLYAnimationComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2EEF031E446753004E4398 /* FLYAnimationComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A2EEF061E446753004E4398 /* FLYAnimationComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EEF041E446753004E4398 /* FLYAnimationComponent.m */; };
+		9A2EEF091E4467F0004E4398 /* FLYPopupAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2EEF071E4467F0004E4398 /* FLYPopupAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A2EEF0A1E4467F0004E4398 /* FLYPopupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EEF081E4467F0004E4398 /* FLYPopupAnimation.m */; };
 		A790A3E6D369AF446C5B5CD5F0B72509 /* Pods-FLYAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C103E41277F34EFD0C8D230EC45A14C /* Pods-FLYAnimation_Example-dummy.m */; };
 		ABA1B08996B2821143F327BDE628B718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -32,33 +36,37 @@
 /* Begin PBXFileReference section */
 		0575DE1D3C0DA0963FF5C41306CBA739 /* Pods-FLYAnimation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLYAnimation_Example-resources.sh"; sourceTree = "<group>"; };
 		0BC4E2A2458B06B503E16FF79E495515 /* Pods-FLYAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		15EDE6F09E778018D1245A423614443F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		1A441862117D29922D898EA838D16C45 /* Pods-FLYAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLYAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		29015ACBBE3208672C378290093D6AC7 /* FLYAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLYAnimation-umbrella.h"; sourceTree = "<group>"; };
 		2C103E41277F34EFD0C8D230EC45A14C /* Pods-FLYAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLYAnimation_Example-dummy.m"; sourceTree = "<group>"; };
 		2DC2DB858C07688E3616356E67B50C90 /* FLYAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLYAnimation-prefix.pch"; sourceTree = "<group>"; };
 		2FD115AA8F17443F6C23D8CF8A14A2B1 /* Pods-FLYAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLYAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
 		377534F6FB01675BC5D5EDD1F0D737CF /* Pods-FLYAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLYAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
-		490493004B96FFE8AFF8EC75853AFEAE /* FLYAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FLYAnimation.modulemap; sourceTree = "<group>"; };
+		490493004B96FFE8AFF8EC75853AFEAE /* FLYAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLYAnimation.modulemap; sourceTree = "<group>"; };
 		4AD2A26E76B20D92D3D126EA755396AC /* Pods-FLYAnimation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLYAnimation_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4C4811971936D59C42FBC9B8C51198E6 /* Pods_FLYAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLYAnimation_Example.framework; path = "Pods-FLYAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4811971936D59C42FBC9B8C51198E6 /* Pods_FLYAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLYAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D33FE4578A7883B68A30564FA72BB9F /* FLYAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLYAnimation.xcconfig; sourceTree = "<group>"; };
 		57188B7E4491464B1B7A9F80B040004C /* FLYAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLYAnimation-dummy.m"; sourceTree = "<group>"; };
 		58D416F93E70C486EA7C85254F193B14 /* Pods-FLYAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLYAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6FBEFCFC018AFDE87D8C50C3B4594291 /* Pods_FLYAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLYAnimation_Tests.framework; path = "Pods-FLYAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D21A8B551845587D03867636F3DD104 /* FLYAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLYAnimation.framework; path = FLYAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBEFCFC018AFDE87D8C50C3B4594291 /* Pods_FLYAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLYAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D21A8B551845587D03867636F3DD104 /* FLYAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLYAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		859F11B8DC5D8EFE81E62A26BB96621F /* Pods-FLYAnimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLYAnimation_Tests-resources.sh"; sourceTree = "<group>"; };
 		8B5E2937E262809F2E8A87B3F3BF767D /* Pods-FLYAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLYAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		983CC55F9C4E79179E3FB0049F7744D1 /* Pods-FLYAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9A2EEF011E44672C004E4398 /* FLYAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYAnimationProtocol.h; sourceTree = "<group>"; };
+		9A2EEF031E446753004E4398 /* FLYAnimationComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYAnimationComponent.h; sourceTree = "<group>"; };
+		9A2EEF041E446753004E4398 /* FLYAnimationComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLYAnimationComponent.m; sourceTree = "<group>"; };
+		9A2EEF071E4467F0004E4398 /* FLYPopupAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYPopupAnimation.h; sourceTree = "<group>"; };
+		9A2EEF081E4467F0004E4398 /* FLYPopupAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLYPopupAnimation.m; sourceTree = "<group>"; };
 		B50EBA4730E25A527894C2BEC876325F /* Pods-FLYAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLYAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B548C981F7F6FF1972308751156481C1 /* Pods-FLYAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLYAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C211D4FAE9A1B743997DC398E63ACE88 /* Pods-FLYAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLYAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C399545E434113289AF65A750FE22BE1 /* Pods-FLYAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FLYAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		C399545E434113289AF65A750FE22BE1 /* Pods-FLYAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FLYAnimation_Example.modulemap"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DC0694D75930DA6DE89C8B6E3DA2C548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDB87D60FD3DA0816C6664A9C197D26A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE5ADCB6BC98D63912974FEBDCA92951 /* Pods-FLYAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FLYAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		EE5ADCB6BC98D63912974FEBDCA92951 /* Pods-FLYAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FLYAnimation_Tests.modulemap"; sourceTree = "<group>"; };
 		F1459E767A932973DD859464FC2DF22A /* Pods-FLYAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F518455DDBFEDEA35D81D6EFD04EFF01 /* Pods-FLYAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F613CCC048BB2D8D74AA194662B8C49A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -148,7 +156,6 @@
 			children = (
 				C9F5D8C87AB1A8F633540F96216CD18C /* Classes */,
 			);
-			name = FLYAnimation;
 			path = FLYAnimation;
 			sourceTree = "<group>";
 		};
@@ -200,9 +207,12 @@
 		C9F5D8C87AB1A8F633540F96216CD18C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				15EDE6F09E778018D1245A423614443F /* ReplaceMe.m */,
+				9A2EEF011E44672C004E4398 /* FLYAnimationProtocol.h */,
+				9A2EEF031E446753004E4398 /* FLYAnimationComponent.h */,
+				9A2EEF041E446753004E4398 /* FLYAnimationComponent.m */,
+				9A2EEF071E4467F0004E4398 /* FLYPopupAnimation.h */,
+				9A2EEF081E4467F0004E4398 /* FLYPopupAnimation.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -231,7 +241,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2EEF091E4467F0004E4398 /* FLYPopupAnimation.h in Headers */,
+				9A2EEF051E446753004E4398 /* FLYAnimationComponent.h in Headers */,
 				4BD1EDF0D31FF37B462F4C857E0E20EB /* FLYAnimation-umbrella.h in Headers */,
+				9A2EEF021E44672C004E4398 /* FLYAnimationProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +360,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2EEF061E446753004E4398 /* FLYAnimationComponent.m in Sources */,
 				06FA34DD86467DF2CE4CB09DEF926C62 /* FLYAnimation-dummy.m in Sources */,
-				7361072827D7B172B91802EBF65C78A8 /* ReplaceMe.m in Sources */,
+				9A2EEF0A1E4467F0004E4398 /* FLYPopupAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
