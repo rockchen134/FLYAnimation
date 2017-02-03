@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9A2EEF0D1E4473CE004E4398 /* UIView+FLYAnimationComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EEF0C1E4473CE004E4398 /* UIView+FLYAnimationComponent.m */; };
 		D20E15D658A63CF5FB3F7391 /* Pods_FLYAnimation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DE70EC91505730392855EC /* Pods_FLYAnimation_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F92B141B028CB75CEC3DD6F /* FLYAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLYAnimation.podspec; path = ../FLYAnimation.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A2EEF0B1E4473CE004E4398 /* UIView+FLYAnimationComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FLYAnimationComponent.h"; sourceTree = "<group>"; };
+		9A2EEF0C1E4473CE004E4398 /* UIView+FLYAnimationComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FLYAnimationComponent.m"; sourceTree = "<group>"; };
 		AE395A29D088C625FB7E4034 /* Pods-FLYAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLYAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLYAnimation_Tests/Pods-FLYAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F76898D3B5DBA99F402F808A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FLYViewController.h */,
 				6003F5A6195388D20070C39A /* FLYViewController.m */,
+				9A2EEF0B1E4473CE004E4398 /* UIView+FLYAnimationComponent.h */,
+				9A2EEF0C1E4473CE004E4398 /* UIView+FLYAnimationComponent.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -397,6 +402,7 @@
 				6003F59E195388D20070C39A /* FLYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FLYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				9A2EEF0D1E4473CE004E4398 /* UIView+FLYAnimationComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,7 @@
 
 @interface FLYAnimationComponent : NSObject <FLYAnimationProtocol>
 
+@property (nonatomic, assign) CGAffineTransform transform;
 @property (nonatomic, readonly, strong) NSObject<FLYAnimationProtocol> *component;
 
 - (instancetype)initWithComponent:(NSObject<FLYAnimationProtocol> *)component;

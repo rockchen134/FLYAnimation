@@ -7,6 +7,7 @@
 //
 
 #import "FLYViewController.h"
+#import "UIView+FLYAnimationComponent.h"
 #import "FLYPopupAnimation.h"
 
 @interface FLYViewController ()
@@ -36,7 +37,7 @@
     UIView *popView = [[UIView alloc] initWithFrame:frame];
     [popView setBackgroundColor:[UIColor yellowColor]];
     
-    NSObject<FLYAnimationProtocol> *animation = [[FLYPopupAnimation alloc] initWithComponent:(NSObject<FLYAnimationProtocol> *)popView];
+    NSObject<FLYAnimationProtocol> *animation = [[FLYPopupAnimation alloc] initWithComponent:popView];
     [animation show];
     
     [self.view addSubview:popView];
